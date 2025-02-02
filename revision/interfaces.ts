@@ -75,7 +75,7 @@ interface Dog extends Animal {
   breed: string;
 }
 
-const dog: Dog = { name: 'Buddy', breed: 'Labrador' };
+// const dog: Dog = { name: 'Buddy', breed: 'Labrador' };
 // ✔️ The Dog interface extends the Animal interface and adds a breed property.
 
 // ✅ Interfaces vs. Type Aliases
